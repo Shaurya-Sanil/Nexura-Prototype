@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator Dashboard</title>
+    <link rel="stylesheet" href="brands_demo_style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        Creator Dashboard
+    </header>
+
+    <!-- Search and Filter Section -->
+    <div class="search-filter">
+        <input type="text" class="search-bar" id="searchBar" placeholder="Search creators...">
+        <select class="filter-select" id="engagementFilter">
+            <option value="">Sort by Engagement Rate</option>
+            <option value="high">Highest to Lowest</option>
+            <option value="low">Lowest to Highest</option>
+        </select>
+        <select class="filter-select" id="ageFilter">
+            <option value="">Filter by Audience Age</option>
+            <option value="18-25">18-25</option>
+            <option value="25-35">25-35</option>
+            <option value="35+">35+</option>
+        </select>
+    </div>
+
+    <!-- Creator Cards Section -->
+    <div class="creator-container" id="creatorContainer">
+        <!-- Sample Creator Cards -->
+        <!-- Repeat for multiple creators -->
+        <div class="creator-card" data-name="Aditya Padhi" data-engagement="14.5" data-age="18-25">
+            <div class="creator-banner" style="background-image: url('https://via.placeholder.com/300x150');"></div>
+            <div class="creator-info">
+                <img src="https://via.placeholder.com/80" class="creator-avatar" alt="Creator Avatar">
+                <div class="creator-name">Aditya Padhi</div>
+                <div class="creator-stats">
+                    <div>Engagement: 14.5%</div>
+                    <div>Audience Age: 18-25</div>
+                </div>
+                <button class="view-profile-btn">View Profile</button>
+            </div>
+        </div>
+
+        <!-- Additional creator cards with different data attributes -->
+        <div class="creator-card" data-name="Jane Smith" data-engagement="7.2" data-age="18-25">
+            <div class="creator-banner" style="background-image: url('https://via.placeholder.com/300x150');"></div>
+            <div class="creator-info">
+                <img src="https://via.placeholder.com/80" class="creator-avatar" alt="Creator Avatar">
+                <div class="creator-name">Jane Smith</div>
+                <div class="creator-stats">
+                    <div>Engagement: 7.2%</div>
+                    <div>Audience Age: 18-25</div>
+                </div>
+                <button class="view-profile-btn">View Profile</button>
+            </div>
+        </div>
+
+        <!-- Dashboard no.3  -->
+        <div class="creator-card" data-name="Nathan Gaymer" data-engagement="3.4" data-age="25-35">
+            <div class="creator-banner" style="background-image: url('https://via.placeholder.com/300x150');"></div>
+            <div class="creator-info">
+                <img src="https://via.placeholder.com/80" class="creator-avatar" alt="Creator Avatar">
+                <div class="creator-name">Nathan Gaymer</div>
+                <div class="creator-stats">
+                    <div>Engagement: 3.4%</div>
+                    <div>Audience Age: 25-35</div>
+                </div>
+                <button class="view-profile-btn">View Profile</button>
+            </div>
+        </div>
+
+        <!-- Dashboard no.4  -->
+
+        <div class="creator-card" data-name="RyaiL" data-engagement="10.5" data-age="35+">
+            <div class="creator-banner" style="background-image: url('https://via.placeholder.com/300x150');"></div>
+            <div class="creator-info">
+                <img src="https://via.placeholder.com/80" class="creator-avatar" alt="Creator Avatar">
+                <div class="creator-name">RyaiL</div>
+                <div class="creator-stats">
+                    <div>Engagement: 10.5%</div>
+                    <div>Audience Age: 35+</div>
+                </div>
+                <button class="view-profile-btn">View Profile</button>
+            </div>
+        </div>
+
+
+        <!-- Dashboard no.5  -->
+
+        <div class="creator-card" data-name="Blah" data-engagement="4.4" data-age="25-35">
+            <div class="creator-banner" style="background-image: url('https://via.placeholder.com/300x150');"></div>
+            <div class="creator-info">
+                <img src="https://via.placeholder.com/80" class="creator-avatar" alt="Creator Avatar">
+                <div class="creator-name">Blah</div>
+                <div class="creator-stats">
+                    <div>Engagement: 4.4%</div>
+                    <div>Audience Age: 25-35</div>
+                </div>
+                <button class="view-profile-btn">View Profile</button>
+            </div>
+        </div>
+
+
+        <!-- Dashboard no.6  -->
+
+
+        <div class="creator-card" data-name="Ved Yadav" data-engagement="9.4" data-age="35+">
+            <div class="creator-banner" style="background-image: url('https://via.placeholder.com/300x150');"></div>
+            <div class="creator-info">
+                <img src="https://via.placeholder.com/80" class="creator-avatar" alt="Creator Avatar">
+                <div class="creator-name">Ved Yadav</div>
+                <div class="creator-stats">
+                    <div>Engagement: 9.4%</div>
+                    <div>Audience Age: 35+</div>
+                </div>
+                <button class="view-profile-btn">View Profile</button>
+            </div>
+        </div>
+
+
+        <!-- Dashboard no. 7 -->
+
+        <div class="creator-card" data-name="Tenz" data-engagement="19.6" data-age="18-25">
+            <div class="creator-banner" style="background-image: url('https://via.placeholder.com/300x150');"></div>
+            <div class="creator-info">
+                <img src="https://via.placeholder.com/80" class="creator-avatar" alt="Creator Avatar">
+                <div class="creator-name">Tenz</div>
+                <div class="creator-stats">
+                    <div>Engagement: 19.6%</div>
+                    <div>Audience Age: 18-25</div>
+                </div>
+                <button class="view-profile-btn">View Profile</button>
+            </div>
+        </div>
+
+        <!-- Add more creator cards here by copying the structure above and changing data attributes -->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Your Company Name. All rights reserved.
+    </footer>
+
+    <script src="brands_demo_js.js"></script>
+</body>
+
+</html>

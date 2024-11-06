@@ -1,0 +1,116 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f4f7;
+}
+
+/* Header */
+header {
+    background-color: #1c75bc;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Search and Filter Section */
+.search-filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #e9ecef;
+}
+
+.search-bar,
+.filter-select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Creator Card Layout */
+.creator-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.creator-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.creator-card:hover {
+    transform: scale(1.03);
+}
+
+.creator-banner {
+    height: 150px;
+    background-color: #4e9bd8;
+    background-size: cover;
+    background-position: center;
+}
+
+.creator-info {
+    padding: 15px;
+}
+
+.creator-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #e8b817;
+    margin-top: -40px;
+    background-color: white;
+}
+
+.creator-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #2c2c2c;
+}
+
+.creator-stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.creator-stats div {
+    font-size: 14px;
+    color: #2c2c2c;
+}
+
+.view-profile-btn {
+    background-color: #1c75bc;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-profile-btn:hover {
+    background-color: #4e9bd8;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
