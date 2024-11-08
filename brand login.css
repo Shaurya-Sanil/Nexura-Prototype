@@ -1,0 +1,164 @@
+:root {
+    --terracotta: #2D9CFF;
+    --warm-beige: #F4F8FB;
+    --burnt-orange: #FFC300;
+    --soft-teal: #333333;
+    --charcoal: #66AFFF;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #14213d;
+    background-color: var(--warm-beige);
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--terracotta);
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--warm-beige);
+}
+
+.nav-links a,
+.sign-up-btn {
+    margin: 0 10px;
+    color: var(--warm-beige);
+    text-decoration: none;
+}
+
+.sign-up-btn {
+    background-color: var(--warm-beige);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    color: var(--soft-teal);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ad-section {
+    flex: 1;
+    max-width: 500px;
+    margin-right: 20px;
+}
+
+#ad-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-section {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: var(--terracotta);
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: var(--terracotta);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0078D7;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e5e5e5;
+    color: #000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .auth-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sign-up-btn,
+    .log-in-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--warm-beige);
+    background-color: var(--terracotta);
+}
+
+
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+}
